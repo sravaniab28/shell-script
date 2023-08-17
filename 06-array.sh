@@ -2,6 +2,6 @@
 
 persons=("sravani""siri""appu")
 
-echo "First person: ${person[0]}"
+echo "First person: ${persons[0]}"
 
 
