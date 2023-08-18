@@ -2,10 +2,10 @@
 
 USERID=$(id -u)
 
-if [ $USERID -ne 0]
+if [ $USERID -ne 0 ]
 then
- echo "$USERID INSTALLATion cancel"
+ echo "error: INSTALLATion cancel"
 else
- echo "$USERID ALLOW THE INSTALLATION"
+ echo " ALLOW THE INSTALLATION"
 
 fi
