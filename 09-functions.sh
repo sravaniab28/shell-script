@@ -4,18 +4,17 @@ USERID=$(id -u)
 VALIDATE(){
 
 if [ $1 -ne 0 ]
-then 
+ then 
     echo "Installation........SUCCESS"
     exit 1
 else
-     echo "installation ........FAILURE""
-
+     echo "installation ........FAILURE"
 fi
 }
 
 if [ $USERID -ne 0 ]
 then
- echo "error: INSTALLATion cancel"
+     echo "error: INSTALLATion cancel"
  exit 1
 else
  echo " ALLOW THE INSTALLATION"
