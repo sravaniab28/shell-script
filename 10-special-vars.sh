@@ -4,3 +4,5 @@ VAR1=$1
 VAR2=$2
 
 echo "variable $VAR1"
+ echo "all variables $@"
+ 
