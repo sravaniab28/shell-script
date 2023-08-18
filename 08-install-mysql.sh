@@ -9,3 +9,6 @@ else
  echo " ALLOW THE INSTALLATION"
 
 fi
+
+
+yum install git -y
