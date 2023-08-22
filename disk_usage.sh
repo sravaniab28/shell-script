@@ -23,4 +23,4 @@ do
      messages+="HIGH DISK USAGE ON $partition: $usage"
  fi
 done <<<$DISK_USAGE
-echo "messages:$messages
+echo "messages: $messages"
